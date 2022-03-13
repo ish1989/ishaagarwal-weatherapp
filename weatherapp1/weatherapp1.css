@@ -1,0 +1,49 @@
+*{
+margin:4px;
+padding:4px;
+font-size: large;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-repeat: none;
+    background-size: cover;
+}
+
+#container{
+    border:2px solide brown;
+    text-align: center;
+}
+
+#textbox
+{
+    width: 520px;
+    height: 53px;
+    border: 1px solid rgb(138, 51, 51);
+    border-radius: 13px;
+    font-size: 5vh;
+    opacity:.7;
+}
+
+#main
+{
+    text-align: center;
+    width:auto;
+    height: auto;
+    font-size: large;
+    opacity: 1;
+}
+
+#city, #date, #temp, #weath, #min-max
+{
+ position: relative;
+    width: 453px;
+    height: 40px;
+    border: 1px solid rgb(138, 51, 51);
+    border-radius: 13px;
+    font-size: 40px;
+    font-weight: 200;
+    left: 430px;
+    background-color: white;
+    opacity: .7;
+}
